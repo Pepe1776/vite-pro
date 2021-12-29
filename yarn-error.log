@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add vue-lottie
+
+PATH: 
+  C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Python310\Scripts\;C:\Python310\;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\mongodb\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\Justin P\AppData\Local\Microsoft\WindowsApps;C:\Users\Justin P\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Justin P\AppData\Roaming\npm;C:\Users\Justin P\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GitHub CLI\
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Justin P\Desktop\code\Vite\Vite-pro\vite-pro\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "vite-vue3-tailwind-starter",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite --host",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.2.26",
+      "vue-router": "^4.0.12"
+    },
+    "devDependencies": {
+      "@headlessui/vue": "^1.4.2",
+      "@heroicons/vue": "^1.0.5",
+      "@tailwindcss/aspect-ratio": "^0.4.0",
+      "@tailwindcss/forms": "^0.4.0",
+      "@tailwindcss/line-clamp": "^0.3.0",
+      "@tailwindcss/typography": "^0.5.0",
+      "@types/tailwindcss": "^2.2.4",
+      "@vitejs/plugin-vue": "^2.0.1",
+      "autoprefixer": "^10.4.0",
+      "tailwindcss": "^3.0.7",
+      "vite": "^2.7.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
