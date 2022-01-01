@@ -5,7 +5,7 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
 <template>
   <div id="cont">
     <a href="./about">
-      <h2 class="text-center text-7xl font-bold leading-tight animate-pulse">
+      <h2 class="transition ease-in-out hover:scale-110	 text-center text-7xl font-bold leading-tight animate-pulse">
         Nterface
       </h2></a>
     
